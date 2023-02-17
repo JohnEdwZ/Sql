@@ -13,11 +13,11 @@ create database biblioteca;
 | )                          |
 
 
-**_VER ESTRUCTURA DE UNA TABLA_** 
+**_VER ESTRUCTURA DE UNA TABLA_**   
 exec sp_columns libros;
 
 ```
-**_LOTE DE COMANDOS SQL_**
+`LOTE DE COMANDOS SQL`
 if OBJECT_ID ('libros') is not null
 	drop table libros;
 
