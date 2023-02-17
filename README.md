@@ -1,8 +1,11 @@
 # SQL
-Aprendiendo Sql
+### Aprendiendo Sql
 
-**_CREAR UNA BASE DE DATOS_**
+**_CREAR UNA BASE DE DATOS_**  
 create database biblioteca;
+
+***
+
 
 **_Create Read Update Delete_**
 | **_CREAR UNA TABLA_**      | Columna 2 | Columna 3 | **_ELIMINAR UNA TABLA_** |
@@ -12,6 +15,9 @@ create database biblioteca;
 | 	autor_libro varchar(40)  | H         | I         |                          |
 | )                          |
 
+
+
+***
 
 **_VER ESTRUCTURA DE UNA TABLA_**   
 exec sp_columns libros;
@@ -47,6 +53,7 @@ insert into libros(nombre_libro, autor_libro)
 select * from libros;
 
 **_TIPOS DE DATOS BÁSICOS EN SQL_**  
+```
 create table libros(  
 	nombre_libro varchar(80),  
 	autor_libro varchar(40),  
@@ -60,3 +67,4 @@ create table libros(
 	precio_libro float,  
 	cantidad_libros_biblioteca integer  
 );  
+```
