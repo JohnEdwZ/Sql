@@ -7,13 +7,13 @@ create database biblioteca;
 ***
 
 
-**_Create Read Update Delete_**
-| **_CREAR UNA TABLA_**      | Columna 2 | Columna 3 | **_ELIMINAR UNA TABLA_** |
-| -------------------------- | --------- | --------- | ------------------------ |
-| create table libros(       | B         | C         | drop table libros;       |
-| 	nombre_libro varchar(80),| E         | F         |                          |
-| 	autor_libro varchar(40)  | H         | I         |                          |
-| )                          |
+**_Create Read Update Delete: CRUD_**
+| **_CREAR_**                | **_LEER_**            | **_ACTUALIZAR_** | **_ELIMINAR_**           |
+| -------------------------- | --------------------- | ---------------- | ------------------------ |
+| create table libros(     - | select * from libros;-| -              - | drop database if exist   |
+| nombre_libro varchar(80),- | -                   - | -              - | biblioteca;            - |
+| autor_libro varchar(40)  - | -                   - | -              - | delete from libros     - |
+| )                        - | -                   - | -              - | -                      - | 
 
 
 
