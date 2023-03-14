@@ -1,4 +1,4 @@
-# SQL
+# Aprendiendo SQL
 ### Aprendiendo Sql
 
 **_CREAR UNA BASE DE DATOS_**  
